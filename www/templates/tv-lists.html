@@ -1,0 +1,18 @@
+<div class="container" ng-controller="FeedCtrl">
+    <div class="row">
+        <div class="col-md-1"></div>
+        <div class="col-md-10">
+                    <h3>News - Channels</h3>
+            <div class="row">
+                <div class="col-md-4" ng-repeat-start="item in channels">
+                <div class="well">
+                    <h4>{{ item.title }}</h4>
+                </div>
+                </div>
+                <div class="clearfix" ng-if="$index%3==2"></div>
+                <div ng-repeat-end=""></div>
+            </div>
+        </div>
+        <div class="col-md-1"></div>
+    </div>
+</div>

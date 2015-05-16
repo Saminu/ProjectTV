@@ -1,0 +1,24 @@
+{
+  "name": "RCCG",
+  "version": "1.0.0",
+  "homepage": "https://github.com/IronSummitMedia/startbootstrap-freelancer",
+  "authors": [
+    "Sam <s.salisu@live.co.uk>"
+  ],
+  "description": "Website",
+  "main": "index.html",
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "node_modules",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "video.js": "~4.12.6",
+    "videojs-youtube": "~1.2.10"
+  },
+  "resolutions": {
+    "video.js": "~4.12.6"
+  }
+}

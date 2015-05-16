@@ -1,0 +1,120 @@
+<div class="row bg-warning">
+    <div ng-model="channels">
+        <div class="col-md-12">
+            <h1 class="text-center">Everything you need during Ramadan</h1>
+        </div>
+        <div class="col-md-1"></div>
+        <div class="col-md-10">
+            <div>
+                <div class="navbar navbar-inverse">
+                    <div class="navbar-header pull-left">
+                        <ul class="nav navbar-nav">
+                            <li><a class="">{{ channels[14].title }}</a></li>
+                        </ul>
+                    </div>
+                    <div class="navbar-header pull-right">
+                        <a href="/#/news" type="button" class="btn btn-default navbar-btn">Back</a>
+                    </div>
+                </div>
+
+                <!--<nav class="navbar navbar-inverse">-->
+                <!--<div class="container-fluid">-->
+                <!--<div class="navbar-header">-->
+                <!--&lt;!&ndash;<button type="button" class="navbar-toggle collapsed" data-toggle="collapse">&ndash;&gt;-->
+                <!--&lt;!&ndash;data-target="#bs-example-navbar-collapse-2">&ndash;&gt;-->
+                <!--&lt;!&ndash;<span class="sr-only">Toggle navigation</span>&ndash;&gt;-->
+                <!--&lt;!&ndash;<span class="icon-bar"></span>&ndash;&gt;-->
+                <!--&lt;!&ndash;<span class="icon-bar"></span>&ndash;&gt;-->
+                <!--&lt;!&ndash;<span class="icon-bar"></span>&ndash;&gt;-->
+                <!--&lt;!&ndash;</button>&ndash;&gt;-->
+                <!--&lt;!&ndash;<a class="navbar-brand hidden-lg hidden-md hidden-sm" href="#">{{ channels[whichChannel].title }}</a>&ndash;&gt;-->
+
+                <!--</div>-->
+
+                <!--<div class=" navbar-collapse" id="bs-example-navbar-collapse-2">-->
+                <!--<ul class="nav navbar-nav">-->
+                <!--<li><a class="" >{{ channels[whichChannel].title }}</a></li>-->
+                <!--</ul>-->
+                <!--<form class="navbar-form navbar-right" role="search">-->
+                <!--<a href="/#/news" type="submit" class="btn btn-default">Back</a>-->
+                <!--</form>-->
+                <!--</div>-->
+                <!--</div>-->
+                <!--</nav>-->
+
+
+                <div class="video-frame">
+                    <iframe width="100%" height="563"
+                            ng-src="{{ trustSrc(channels[14].link) }}" frameborder="0"
+                            allowfullscreen></iframe>
+                </div>
+
+                <!--<video class="sublime" data-settings="uid:demo-player-designs-flat; player-kit:2; autoresize:fit;" title="Demo: Player designs, Flat" poster="http://media.sublimevideo.net/vpa/ms_800.jpg" width="100%" height="563" preload="none" style="display:none">-->
+                <!--<source src="{{ trustSrc(channels[whichChannel].link) }}" />-->
+                <!--<source src="{{ trustSrc(channels[whichChannel].link) }}" />-->
+                <!--</video>-->
+
+                <!--<div class="md-macbook-pro md-glare hidden">-->
+                <!--<div class="md-lid">-->
+                <!--<div class="md-camera"></div>-->
+                <!--<div class="md-screen">-->
+                <!--&lt;!&ndash; content goes here &ndash;&gt;-->
+                <!--<div class="tab-featured-image">-->
+                <!--<div class="tab-content">-->
+                <!--<div class="tab-pane  in active" id="tabone">-->
+                <!--&lt;!&ndash;<iframe class="tvframe" width="100%" height="428.875"&ndash;&gt;-->
+                <!--&lt;!&ndash;src="https://www.youtube.com/embed/sw4hmqVPe0E?autoplay=1"&ndash;&gt;-->
+                <!--&lt;!&ndash;frameborder="0" allowfullscreen></iframe>&ndash;&gt;-->
+
+                <!--<iframe width="100%" height="481"-->
+                <!--ng-src="{{ trustSrc(channels[whichChannel].link) }}" frameborder="0"-->
+                <!--allowfullscreen></iframe>-->
+
+                <!--&lt;!&ndash; <video id="vid1" src="" class="video-js vjs-default-skin" controls preload="auto" &ndash;&gt;-->
+                <!--&lt;!&ndash; data-setup='{ "techOrder": ["youtube"], "height":"auto", "width":"auto", "autoplay": true, "src": "{{ channels[whichChannel].link }}" }'> &ndash;&gt;-->
+                <!--&lt;!&ndash; </video> &ndash;&gt;-->
+
+                <!--</div>-->
+                <!--</div>-->
+                <!--</div>-->
+                <!--</div>-->
+                <!--</div>-->
+                <!--&lt;!&ndash;<div class="md-base"></div>&ndash;&gt;-->
+                <!--</div>-->
+            </div>
+            <h3>About {{ channels[14].title }}</h3>
+
+            <!--<p>  {{ channels[whichChannel].body }} </p>-->
+            <p ng-bind-html="channels[14].body | html"></p>
+            <br>
+            <br>
+            <em>
+                Content disclaimer:<br>
+                The published listings of live, re-aired, and on-demand match and program events published on this
+                website are broadcast by the official rights holders. They are available on various platforms such as
+                terrestrial TV, radio, cable, satellite, IPTV, mobile and desktop apps. Where possible, we will provide
+                links to the streaming events available on the platforms provided by the official broadcasters. Please
+                note that in many cases, a digital subscription or user authentication with a TV or internet provider
+                will be required. We endeavor to provide as accurate and detailed broadcast information as possible.
+                However, broadcast schedules are subject to change at any time. If you find incorrect or missing
+                information, please let us know.
+            </em>
+
+            <em>
+                All content on this websites are copyright of their respective owners. We urge all copyright owners to
+                recognize that links contained within this site are located somewhere else on the web. The embedded link
+                points to the location of the video on the web. Please direct all copyright infringement issues to the
+                companies that host these files.
+            </em>
+
+            <br>
+
+            <div class='shareaholic-canvas' data-app='recommendations' data-app-id='17701353'></div>
+        </div>
+        <div class="col-md-1">
+            <script type="text/javascript"
+                    src="http://www.muslimpro.com/muslimprowidget.js?cityid=5368361&width=150&timeformat=24&headerbackgroundcolor=888888&headertextcolor=000000&textcolor=000000&rowbackgroundcolor1=eeeeee&rowbackgroundcolor2=cccccc"
+                    async></script>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,217 @@
+.panel-heading:hover {
+  cursor: pointer;
+}
+.panel-heading {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+.side-tab:hover {
+  cursor: pointer;
+}
+.panel.panel-default {
+  border: none;
+  box-shadow: none !important;
+  border-bottom-right-radius: 0px;
+  border-bottom-left-radius: 0px;
+}
+.panel-heading {
+  border: none;
+  background-color: #142E5E;
+}
+.panel-body {
+  background-color: ghostwhite;
+}
+.panel-title {
+  font-weight: 400;
+  color: grey;
+}
+/*----------------------------------
+    Macbook pro mockup from:
+    http://jaredhardy.com/minimal-devices/
+
+----------------------------------*/
+.md-macbook-pro {
+  display: block;
+  width: 100%;
+  font-size: 13px;
+  margin: 0 auto;
+}
+@media (max-width: 1199px) {
+  .md-macbook-pro {
+    font-size: 11px;
+  }
+}
+@media (max-width: 1024px) {
+  .md-macbook-pro {
+    font-size: 10px;
+  }
+}
+@media (max-width: 767px) {
+  .md-macbook-pro {
+    font-size: 7px;
+  }
+}
+@media (max-width: 320px) {
+  .md-macbook-pro {
+    font-size: 5px;
+  }
+}
+.md-macbook-pro .md-lid {
+  width: 64em;
+  height: 39.625em;
+  overflow: hidden;
+  margin: 0 auto;
+  position: relative;
+  border-radius: 1.875em;
+  background: #131313;
+}
+@media (max-width: 678px) {
+  .md-macbook-pro .md-lid {
+    min-height: 50em;
+    height: 68em;
+  }
+}
+@media (max-width: 1024px) {
+  .md-macbook-pro .md-lid {
+    min-height: 50em;
+    height: 50em;
+  }
+}
+.md-macbook-pro .md-camera {
+  width: 0.375em;
+  height: 0.375em;
+  margin: 0 auto;
+  position: relative;
+  top: 1.0625em;
+  background: #000;
+  border-radius: 100%;
+  box-shadow: inset 0 -1px 0 rgba(255, 255, 255, 0.25);
+}
+.md-macbook-pro .md-camera:after {
+  content: "";
+  display: block;
+  width: 0.125em;
+  height: 0.125em;
+  position: absolute;
+  left: 0.125em;
+  top: 0.0625em;
+  background: #353542;
+  border-radius: 100%;
+}
+.md-macbook-pro .md-screen {
+  margin: 0 auto;
+  position: relative;
+  top: 1.0em;
+  overflow: hidden;
+}
+.md-macbook-pro .md-screen img {
+  width: 100%;
+}
+.md-macbook-pro .md-base {
+  width: 100%;
+  height: 0.9375em;
+  position: relative;
+  top: -0.75em;
+  background: #c6c7ca;
+}
+.md-macbook-pro .md-base:after {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 0.5em;
+  margin: 0 auto;
+  position: relative;
+  bottom: -0.1875em;
+  background: #b9babe;
+  border-radius: 0 0 1.25em 1.25em;
+}
+.md-macbook-pro .md-base:before {
+  content: "";
+  display: block;
+  width: 7.6875em;
+  height: 0.625em;
+  margin: 0 auto;
+  position: relative;
+  background: #a6a8ad;
+  border-radius: 0 0 0.625em 0.625em;
+}
+.collapse.in {
+  display: block;
+  visibility: visible;
+  color: #2c3e50;
+  border-top: 4px solid #fc0725;
+}
+.tvframe {
+  min-height: 310.875px;
+}
+.listing a {
+  -webkit-font-smoothing: antialiased;
+  font: 14px Arial;
+}
+.listing a:link {
+  text-decoration: none;
+}
+.listing a:visited {
+  text-decoration: none;
+}
+.listing a:hover {
+  text-decoration: none;
+}
+.listing a:active {
+  text-decoration: none;
+}
+.well {
+  color: #65615e;
+  min-height: 20px;
+  background-color: #000000;
+  border: 1px solid #242E35;
+}
+@media (min-width: 768px) {
+  .well {
+    min-height: 145px;
+  }
+}
+.well:hover {
+  padding: 19px;
+  background-color: #000000;
+  border: 1px solid #562A53;
+  color: #65615e;
+}
+.channel-logo {
+  margin-bottom: 10px;
+}
+.channel-logo img {
+  align-items: center;
+  max-width: 116px;
+  max-height: 65px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 20px;
+}
+.video-frame iframe {
+  height: 563px;
+}
+@media (max-width: 1199px) {
+  .video-frame iframe {
+    height: 563px;
+  }
+}
+@media (max-width: 1024px) {
+  .video-frame iframe {
+    height: 452px;
+  }
+}
+@media (max-width: 767px) {
+  .video-frame iframe {
+    height: 352px;
+  }
+}
+@media (max-width: 320px) {
+  .video-frame iframe {
+    height: 300px;
+  }
+}

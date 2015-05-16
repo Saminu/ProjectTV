@@ -1,0 +1,81 @@
+@import "variables.less";
+
+#myCarousel .carousel-caption {
+  left:0;
+  right:0;
+  bottom:0;
+  text-align:left;
+  padding:10px;
+  background:rgba(0,0,0,0.6);
+  text-shadow:none;
+  border-bottom: 4px solid @brand-gold;
+}
+
+#myCarousel .list-group {
+  position:absolute;
+  top:0;
+  right:0;
+ // border-bottom: 4px solid @brand-gold;
+}
+#myCarousel .list-group-item {
+  border-radius:0px;
+  cursor:pointer;
+}
+#myCarousel .list-group .active {
+  background-color:#eee;
+  color: #2c3e50;
+  border: none;
+  border-bottom: 4px solid @brand-gold;
+}
+
+@media (min-width: 992px) {
+  #myCarousel {padding-right:33.3333%;}
+  #myCarousel .carousel-controls {display:none;}
+}
+@media (max-width: 991px) {
+  .carousel-caption p,
+  #myCarousel .list-group {display:none;}
+}
+
+//slide title
+.thumbnail {
+  position:relative;
+  overflow:hidden;
+}
+
+.caption {
+  position:absolute;
+  top:-100%;
+  right:0;
+//  background:rgba(66, 139, 202, 0.75);
+  background:@brand-gold;
+  width:100%;
+  height:100%;
+ // padding:2%;
+  text-align:center;
+ // color:#fff !important;
+  z-index:2;
+  -webkit-transition: all 0.5s ease-in-out;
+  -moz-transition: all 0.5s ease-in-out;
+  -o-transition: all 0.5s ease-in-out;
+  -ms-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+
+  color: @brand-primary !important;
+}
+.thumbnail:hover .caption {
+  top:0%;
+}
+
+.thumbnail {
+  display: block;
+  padding: 0px;
+  margin-bottom: 21px;
+  line-height: 1.42857143;
+  background-color: #ffffff;
+  border: 0px solid #ecf0f1;
+  border-radius: 0px;
+  -webkit-transition: border 0.2s ease-in-out;
+  -o-transition: border 0.2s ease-in-out;
+  transition: border 0.2s ease-in-out;
+}
